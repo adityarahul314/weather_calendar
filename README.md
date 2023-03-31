@@ -1,6 +1,6 @@
 A dynamic web wallpaper for wallpaper engine with date and weather updates.
 
-![](https://github.com/ceasback/wallpapereng/blob/master/cal_preview.png)
+![](https://github.com/adityarahul314/weather_calendar/blob/main/cal_preview.png)
 
 periodic weather updates include temperature, pressure, humidity, wind speed and direction and visibility every hour. Monthly calender updates every day at midnight. Image background is sourced from Monogatari anime series and cleaned to fit the theme.
 
