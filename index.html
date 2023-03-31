@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="loadtrigger()">
+<div class="grid-container">
+  <div class="item1" id="temperature">00.0°C</div>
+  <img class="item2" src="http://openweathermap.org/img/wn/10d@2x.png" id="sky"></img>
+  <div class="item3" id="skyfeel">Cloudy, Feels like 00.0°C</div>
+  	<div class="marquee">
+	  <span class="pressure" id="press">Pressure : 0000 hPa</span>
+	  <span class="humidity" id="hum">Humidity : 00%</span>
+	  <span class="wind" id="windy">Wind : 00 m/s SSE</span>
+	  <span class="visibility" id="visible">Visibility : 0000 mts</span>
+	</div>
+  <div class="item6"></div>
+  <div class="item7"></div>
+</div>
+<div class="bottomcontparent">
+	<div class="bottomcont">
+		<div class="calenderview">	
+			<table border="0" cellspacing="0" cellpadding="0" class="stubs">
+				<tr>
+					<img class="katana" src="kokorowatari_small.png">
+				</tr>
+				<tr>
+					<td class="rec_1"></td>
+					<td class="rec_2"></td>
+					<td class="rec_1"></td>
+					<td class="rec_1"></td>
+					<td class="rec_2"></td>
+					<td class="rec_1"></td>
+				</tr>
+			</table>
+			<table class="week_names">
+				<tr>
+				    <th>月</th>
+				    <th>火</th> 
+				    <th>水</th>
+				    <th>木</th>
+				    <th>金</th>
+				    <th>土</th>
+				    <th>日</th>
+				</tr>
+			</table>
+			<table class="week_numbers">
+				<tr>
+					<td id='day0' ></td>
+				    <td id='day1' ></td>
+				    <td id='day2' ></td> 
+				    <td id='day3' ></td>
+				    <td id='day4' ></td>
+				    <td id='day5' ></td>
+				    <td id='day6' ></td>
+				</tr>
+				<tr>
+				    <td id='day7' ></td>
+				    <td id='day8' ></td> 
+				    <td id='day9' ></td>
+				    <td id='day10' ></td>
+				    <td id='day11' ></td>
+				    <td id='day12' ></td>
+				    <td id='day13' ></td>
+				</tr>
+				<tr>
+				    <td id='day14' ></td>
+				    <td id='day15' ></td> 
+				    <td id='day16' ></td>
+				    <td id='day17' ></td>
+				    <td id='day18' ></td>
+				    <td id='day19' ></td>
+				    <td id='day20' ></td>
+				</tr>
+				<tr>
+				    <td id='day21' ></td>
+				    <td id='day22' ></td> 
+				    <td id='day23' ></td>
+				    <td id='day24' ></td>
+				    <td id='day25' ></td>
+				    <td id='day26' ></td>
+				    <td id='day27' ></td>
+				</tr>
+				<tr>
+				    <td id='day28' ></td>
+				    <td id='day29' ></td> 
+				    <td id='day30' ></td>
+				    <td id='day31' ></td>
+				    <td id='day32' ></td>
+				    <td id='day33' ></td>
+				    <td id='day34' ></td>
+				</tr>
+				<tr>
+				    <td id='day35' ></td>
+				    <td id='day36' ></td> 
+				    <td id='day37' ></td>
+				    <td id='day38' ></td>
+				    <td id='day39' ></td>
+				    <td id='day40' ></td>
+				    <td id='day41' ></td>
+				</tr>
+			</table>
+		</div>
+		<div class="monyear">	
+			<p id="month"> 1 </p>
+			<p> 月 </p>
+			<p> ~ </p>
+			<p id="year1"> 1 </p>
+			<p id="year2"> 9 </p>
+			<p id="year3"> 7 </p>
+			<p id="year4"> 0 </p>
+			<p> 年 </p>
+		</div>
+	</div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+</html>
